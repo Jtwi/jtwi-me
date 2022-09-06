@@ -35,7 +35,7 @@ export default function Home() {
     <div className="bg-cover bg-white dark:bg-gray-900 dark:text-white text-black top-0 min-h-screen">
       <div className="mx-auto max-w-4xl px-8">
         <Head>
-          <meta charset="UTF-8" />
+          <meta charSet="UTF-8" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
