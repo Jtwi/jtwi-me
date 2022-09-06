@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import { Fade } from "react-awesome-reveal";
 import Typewriter from "typewriter-effect";
 import React from "react";
@@ -72,7 +71,7 @@ export default function Home() {
 
         <main className="max-w-3xl space-y-12 py-14">
           <Fade delay={150}>
-            <div className="space-y-2">
+            <div className="space-y-2 ">
               <h1 className="font-bold mb-3 text-4xl md:text-6xl">
                 Hi, I&apos;m{" "}
                 <a className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
@@ -92,7 +91,7 @@ export default function Home() {
                   }}
                 />
               </a>
-              <div className="flex items-center space-x-5 pt-2">
+              <div className="flex items-center  space-x-5 pt-2">
                 <a
                   target="_blank"
                   href="https://twitter.com/_jtwi"
