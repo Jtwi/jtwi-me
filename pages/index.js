@@ -74,7 +74,7 @@ export default function Home() {
           <Fade delay={150}>
             <div className="space-y-2">
               <h1 className="font-bold mb-3 text-4xl md:text-6xl">
-                Hi, I'm{" "}
+                Hi, I&apos;m{" "}
                 <a className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
                   Jordan
                 </a>
@@ -182,8 +182,8 @@ export default function Home() {
                 ⚙️ – Projects
               </h3>
               <p className="font-semibold dark:text-gray-100 text-gray-900 sm:text-xl text-md">
-                Don't just take my word for it. Check out the recent projects I
-                have worked on!
+                Don&apos;t just take my word for it. Check out the recent
+                projects I have worked on!
               </p>
 
               <div ref={sliderRef} className="keen-slider">
@@ -429,10 +429,10 @@ export default function Home() {
               </h3>
               <p className="font-semibold dark:text-gray-100 text-gray-900 sm:text-xl text-md">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
+                industry. Lorem Ipsum has been the industry&apos;s standard
+                dummy text ever since the 1500s, when an unknown printer took a
+                galley of type and scrambled it to make a type specimen book. It
+                has survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged. It was
                 popularised in the 1960s with the release of Letraset sheets
                 containing Lorem Ipsum passages, and more recently with desktop
