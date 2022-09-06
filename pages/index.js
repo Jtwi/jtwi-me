@@ -292,7 +292,7 @@ export default function Home() {
                   <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="/revabcdeck.jpg"
+                      src="/qa.png"
                       alt="blog"
                       layout="responsive"
                       width="750"
