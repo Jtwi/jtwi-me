@@ -197,7 +197,7 @@ export default function Home() {
                       width="750"
                       height="450"
                     />
-                    <div className="p-6">
+                    <div className="p-3 md:p-6">
                       <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         WEB DEVELOPMENT
                       </h2>
@@ -230,7 +230,7 @@ export default function Home() {
                       width="750"
                       height="450"
                     />
-                    <div className="p-6">
+                    <div className="p-3 md:p-6">
                       <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         DISCORD MANAGEMENT
                       </h2>
@@ -264,7 +264,7 @@ export default function Home() {
                       width="750"
                       height="450"
                     />
-                    <div className="p-6">
+                    <div className="p-3 md:p-6">
                       <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         DIGITAL LEAD
                       </h2>
