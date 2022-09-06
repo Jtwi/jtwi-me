@@ -172,7 +172,7 @@ export default function Home() {
                 Service, Business Development, JavaScript Programming, Large
                 Scale Discord Communities and Frontend Development. Strong
                 Business Information Technology professional graduated from
-                Birmingham City University in 2022 with a First Class Honours.
+                Birmingham City University in 2022 with a First class Honours.
               </p>
             </div>
           </Fade>
@@ -187,26 +187,26 @@ export default function Home() {
               </p>
 
               <div ref={sliderRef} className="keen-slider">
-                <div class="p-1 keen-slider__slide">
-                  <div class="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm  shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm  shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                     <Image
-                      class="lg:h-36 md:h-36 w-full object-cover object-center"
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/curatesmart.png"
                       alt="blog"
                       layout="responsive"
                       width="750"
                       height="450"
                     />
-                    <div class="p-6">
-                      <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
+                    <div className="p-6">
+                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         WEB DEVELOPMENT
                       </h2>
-                      <h1 class="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
                         Curate Smart
                       </h1>
-                      <div class="flex items-center flex-wrap ">
+                      <div className="flex items-center flex-wrap ">
                         <a
-                          class=" inline-flex items-center"
+                          className=" inline-flex items-center"
                           target="_blank"
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
@@ -220,27 +220,27 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="p-1 keen-slider__slide">
-                  <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm border-opacity-60 rounded-lg overflow-hidden">
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm border-opacity-60 rounded-lg overflow-hidden">
                     <Image
-                      class="lg:h-36 md:h-36 w-full object-cover object-center"
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/botmrt.png"
                       alt="blog"
                       layout="responsive"
                       width="750"
                       height="450"
                     />
-                    <div class="p-6">
-                      <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
+                    <div className="p-6">
+                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         DISCORD MANAGEMENT
                       </h2>
-                      <h1 class="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
                         BotMart <br />
                         Reeflabs LLC
                       </h1>
-                      <div class="flex items-center flex-wrap ">
+                      <div className="flex items-center flex-wrap ">
                         <a
-                          class=" inline-flex items-center"
+                          className=" inline-flex items-center"
                           target="_blank"
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
@@ -254,27 +254,27 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="p-1 keen-slider__slide">
-                  <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm shadow-sm border-opacity-60 rounded-lg overflow-hidden">
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm shadow-sm border-opacity-60 rounded-lg overflow-hidden">
                     <Image
-                      class="lg:h-36 md:h-36 w-full object-cover object-center"
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/radioshackllc2.png"
                       alt="blog"
                       layout="responsive"
                       width="750"
                       height="450"
                     />
-                    <div class="p-6">
-                      <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
+                    <div className="p-6">
+                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         DIGITAL LEAD
                       </h2>
-                      <h1 class="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
                         RadioShack <br />
                         Online LLC
                       </h1>
-                      <div class="flex items-center flex-wrap ">
+                      <div className="flex items-center flex-wrap ">
                         <a
-                          class=" inline-flex items-center"
+                          className=" inline-flex items-center"
                           target="_blank"
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
@@ -288,26 +288,26 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="p-1 keen-slider__slide">
-                  <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
                     <Image
-                      class="lg:h-36 md:h-36 w-full object-cover object-center"
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/abcrev.png"
                       alt="blog"
                       layout="responsive"
                       width="750"
                       height="450"
                     />
-                    <div class="p-6">
-                      <h2 class="text-xs title-font font-medium dark:text-gray-500 text-gray-400 mb-1">
+                    <div className="p-6">
+                      <h2 className="text-xs title-font font-medium dark:text-gray-500 text-gray-400 mb-1">
                         UI/UX & WEB DEVELOPMENT
                       </h2>
-                      <h1 class="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
                         Retail Ecommerce Ventures LLC
                       </h1>
-                      <div class="flex items-center flex-wrap ">
+                      <div className="flex items-center flex-wrap ">
                         <a
-                          class=" inline-flex items-center"
+                          className=" inline-flex items-center"
                           target="_blank"
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
@@ -321,26 +321,26 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="p-1 keen-slider__slide">
-                  <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
                     <Image
-                      class="lg:h-36 md:h-36 w-full object-cover object-center"
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/qa.png"
                       alt="blog"
                       layout="responsive"
                       width="750"
                       height="450"
                     />
-                    <div class="p-6">
-                      <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
+                    <div className="p-6">
+                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         DIGITAL LEAD
                       </h2>
-                      <h1 class="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
                         QA LTD
                       </h1>
-                      <div class="flex items-center flex-wrap ">
+                      <div className="flex items-center flex-wrap ">
                         <a
-                          class=" inline-flex items-center"
+                          className=" inline-flex items-center"
                           target="_blank"
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
@@ -354,26 +354,26 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="p-1 keen-slider__slide">
-                  <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
                     <Image
-                      class="lg:h-36 md:h-36 w-full object-cover object-center"
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/bcu.png"
                       alt="blog"
                       layout="responsive"
                       width="750"
                       height="450"
                     />
-                    <div class="p-6">
-                      <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
+                    <div className="p-6">
+                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         DOCKER LINUX WEB SERVER
                       </h2>
-                      <h1 class="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
                         Birmingham City University
                       </h1>
-                      <div class="flex items-center flex-wrap ">
+                      <div className="flex items-center flex-wrap ">
                         <a
-                          class=" inline-flex items-center"
+                          className=" inline-flex items-center"
                           target="_blank"
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
@@ -387,26 +387,26 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="p-1 keen-slider__slide">
-                  <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
                     <Image
-                      class="lg:h-36 md:h-36 w-full object-cover object-center"
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/astroproxies.png"
                       alt="blog"
                       layout="responsive"
                       width="750"
                       height="450"
                     />
-                    <div class="p-6">
-                      <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
+                    <div className="p-6">
+                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         FOUNDER & DIRECTOR
                       </h2>
-                      <h1 class="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
                         Astro Proxies <br /> Astro IO LTD
                       </h1>
-                      <div class="flex items-center flex-wrap ">
+                      <div className="flex items-center flex-wrap ">
                         <a
-                          class=" inline-flex items-center"
+                          className=" inline-flex items-center"
                           target="_blank"
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
