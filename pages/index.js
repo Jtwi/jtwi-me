@@ -189,10 +189,13 @@ export default function Home() {
               <div ref={sliderRef} className="keen-slider">
                 <div class="p-1 keen-slider__slide">
                   <div class="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm  shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
-                    <img
+                    <Image
                       class="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="https://i.imgur.com/2Lyg0do.png"
+                      src="/curatesmart.png"
                       alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
                     />
                     <div class="p-6">
                       <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
@@ -219,10 +222,13 @@ export default function Home() {
 
                 <div class="p-1 keen-slider__slide">
                   <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm border-opacity-60 rounded-lg overflow-hidden">
-                    <img
+                    <Image
                       class="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="https://i.imgur.com/t5Fhwn2.png"
+                      src="/botmrt.png"
                       alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
                     />
                     <div class="p-6">
                       <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
@@ -250,10 +256,13 @@ export default function Home() {
 
                 <div class="p-1 keen-slider__slide">
                   <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm shadow-sm border-opacity-60 rounded-lg overflow-hidden">
-                    <img
+                    <Image
                       class="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="https://i.imgur.com/iwxbqn6.png"
+                      src="/radioshackllc2.png"
                       alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
                     />
                     <div class="p-6">
                       <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
@@ -281,10 +290,13 @@ export default function Home() {
 
                 <div class="p-1 keen-slider__slide">
                   <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
-                    <img
+                    <Image
                       class="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="https://i.imgur.com/nlWoMgN.png"
+                      src="/abcrev.png"
                       alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
                     />
                     <div class="p-6">
                       <h2 class="text-xs title-font font-medium dark:text-gray-500 text-gray-400 mb-1">
@@ -311,10 +323,13 @@ export default function Home() {
 
                 <div class="p-1 keen-slider__slide">
                   <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
-                    <img
+                    <Image
                       class="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="https://i.imgur.com/Bv5vqRl.png"
+                      src="/qa.png"
                       alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
                     />
                     <div class="p-6">
                       <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
@@ -341,10 +356,13 @@ export default function Home() {
 
                 <div class="p-1 keen-slider__slide">
                   <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
-                    <img
+                    <Image
                       class="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="https://i.imgur.com/NRL9dUR.png"
+                      src="/bcu.png"
                       alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
                     />
                     <div class="p-6">
                       <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
@@ -371,10 +389,13 @@ export default function Home() {
 
                 <div class="p-1 keen-slider__slide">
                   <div class="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
-                    <img
+                    <Image
                       class="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="https://i.imgur.com/Qmy3ZPx.png"
+                      src="/astroproxies.png"
                       alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
                     />
                     <div class="p-6">
                       <h2 class="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
