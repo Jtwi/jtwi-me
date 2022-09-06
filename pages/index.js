@@ -197,7 +197,7 @@ export default function Home() {
                       width="750"
                       height="450"
                     />
-                    <div className="p-3 md:p-6">
+                    <div className="p-4 sm:p-6">
                       <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         WEB DEVELOPMENT
                       </h2>
@@ -230,7 +230,7 @@ export default function Home() {
                       width="750"
                       height="450"
                     />
-                    <div className="p-3 md:p-6">
+                    <div className="p-4 sm:p-6">
                       <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         DISCORD MANAGEMENT
                       </h2>
@@ -264,7 +264,7 @@ export default function Home() {
                       width="750"
                       height="450"
                     />
-                    <div className="p-3 md:p-6">
+                    <div className="p-4 sm:p-6">
                       <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         DIGITAL LEAD
                       </h2>
@@ -292,7 +292,7 @@ export default function Home() {
                   <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="/retailecomventures.png"
+                      src="/revabcdeck.png"
                       alt="blog"
                       layout="responsive"
                       width="750"
@@ -331,7 +331,7 @@ export default function Home() {
                       width="750"
                       height="450"
                     />
-                    <div className="p-6">
+                    <div className="p-4 sm:p-6">
                       <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         DIGITAL LEAD
                       </h2>
@@ -364,7 +364,7 @@ export default function Home() {
                       width="750"
                       height="450"
                     />
-                    <div className="p-6">
+                    <div className="p-4 sm:p-6">
                       <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         DOCKER LINUX WEB SERVER
                       </h2>
@@ -397,7 +397,7 @@ export default function Home() {
                       width="750"
                       height="450"
                     />
-                    <div className="p-6">
+                    <div className="p-4 sm:p-6">
                       <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
                         FOUNDER & DIRECTOR
                       </h2>
