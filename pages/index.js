@@ -188,39 +188,6 @@ export default function Home() {
 
               <div ref={sliderRef} className="keen-slider">
                 <div className="p-1 keen-slider__slide">
-                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm  shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
-                    <Image
-                      className="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="/curatesmart.png"
-                      alt="blog"
-                      layout="responsive"
-                      width="750"
-                      height="450"
-                    />
-                    <div className="p-4 sm:p-6">
-                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
-                        WEB DEVELOPMENT
-                      </h2>
-                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
-                        Curate Smart
-                      </h1>
-                      <div className="flex items-center flex-wrap ">
-                        <a
-                          className=" inline-flex items-center"
-                          target="_blank"
-                          href="https://twitter.com/_jtwi"
-                          rel="noopener noreferrer"
-                        >
-                          <h2 className="bg-clip-text font-semibold text-transparent shadow-sm bg-gradient-to-r from-blue-600 to-blue-500">
-                            Case Study →
-                          </h2>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="p-1 keen-slider__slide">
                   <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm border-opacity-60 rounded-lg overflow-hidden">
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
@@ -290,15 +257,15 @@ export default function Home() {
 
                 <div className="p-1 keen-slider__slide">
                   <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
-                    <Image
-                      className="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="/qa.png"
-                      alt="blog"
-                      layout="responsive"
-                      width="750"
-                      height="450"
-                    />
                     <div className="p-6">
+                      <Image
+                        className="lg:h-36 md:h-36 w-full object-cover object-center"
+                        scr="/retailcommerceventurerev.png"
+                        alt="Retail Commerce Ventures - REV"
+                        layout="responsive"
+                        width="750"
+                        height="450"
+                      />
                       <h2 className="text-xs title-font font-medium dark:text-gray-500 text-gray-400 mb-1">
                         UI/UX & WEB DEVELOPMENT
                       </h2>
@@ -412,6 +379,39 @@ export default function Home() {
                           rel="noopener noreferrer"
                         >
                           <h2 className="bg-clip-text font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
+                            Case Study →
+                          </h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm  shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                    <Image
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
+                      src="/curatesmart.png"
+                      alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
+                    />
+                    <div className="p-4 sm:p-6">
+                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
+                        WEB DEVELOPMENT
+                      </h2>
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                        Curate Smart
+                      </h1>
+                      <div className="flex items-center flex-wrap ">
+                        <a
+                          className=" inline-flex items-center"
+                          target="_blank"
+                          href="https://twitter.com/_jtwi"
+                          rel="noopener noreferrer"
+                        >
+                          <h2 className="bg-clip-text font-semibold text-transparent shadow-sm bg-gradient-to-r from-blue-600 to-blue-500">
                             Case Study →
                           </h2>
                         </a>
