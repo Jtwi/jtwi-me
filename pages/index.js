@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import REVimage from "../public/retailecomventures.png";
 import { Fade } from "react-awesome-reveal";
 import Typewriter from "typewriter-effect";
 import React from "react";
@@ -259,7 +260,7 @@ export default function Home() {
                     <div className="p-6">
                       <Image
                         className="lg:h-36 md:h-36 w-full object-cover object-center"
-                        scr="/retailcommerceventurerev.png"
+                        scr={REVimage.src}
                         alt="Retail Commerce Ventures - REV"
                         layout="responsive"
                         width="750"
