@@ -71,7 +71,7 @@ export default function Home() {
         </Head>
 
         <main className="max-w-3xl space-y-12 py-14">
-          <Fade delay={150}>
+          <Fade delay={200} triggerOnce>
             <div className="space-y-2 ">
               <h1 className="font-bold mb-3 text-4xl md:text-6xl">
                 Hi, I&apos;m{" "}
@@ -160,28 +160,38 @@ export default function Home() {
               </div>
             </div>
           </Fade>
-          <Fade delay={400}>
+          <Fade delay={200} triggerOnce>
             <div className="space-y-3">
               <h3 className="text-2xl md:text-3xl font-semibold">
                 💭 – About Me
               </h3>
-              <p className="font-semibold dark:text-gray-100 text-gray-900 sm:text-xl text-md">
-                Experienced Company Director / Manager with a demonstrated
-                history of working in the information technology and services
-                industry. Skilled in Management, Data Analysis, Customer
-                Service, Business Development, JavaScript Programming, Large
-                Scale Discord Communities and Frontend Development. Strong
-                Business Information Technology professional graduated from
-                Birmingham City University in 2022 with a First class Honours.
+              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                I&apos;m 23 years old, from the United Kingdom! I started my
+                journey in graphic design before adventuring into web
+                development for a handful of local clients.
+              </p>
+              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                Six years later I now focus on Business Development &
+                Management, Full Stack Development, Online Community Management,
+                Web3 / Blockchain Tech for worldwide clients. As well as
+                founding two of my own online businesses!
+              </p>
+
+              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                I also graduated from Birmingham City University in 2022 with a
+                First class Honours in Business Information Technology!
+              </p>
+              <p className="font-medium italic tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                Been a busy six years...
               </p>
             </div>
           </Fade>
-          <Fade delay={600}>
+          <Fade delay={200} triggerOnce>
             <div className="space-y-3">
               <h3 className="text-2xl md:text-3xl font-semibold">
-                ⚙️ – Projects
+                ⚙️ – Projects & Work
               </h3>
-              <p className="font-semibold dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
                 Don&apos;t just take my word for it. Check out the recent
                 projects I have worked on!
               </p>
@@ -259,39 +269,6 @@ export default function Home() {
                   <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="/retailecomventures.png"
-                      alt="blog"
-                      layout="responsive"
-                      width="750"
-                      height="450"
-                    />
-                    <div className="p-4 sm:p-6">
-                      <h2 className="text-xs title-font font-medium dark:text-gray-500 text-gray-400 mb-1">
-                        UI/UX & WEB DEVELOPMENT
-                      </h2>
-                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
-                        Retail Ecommerce Ventures LLC
-                      </h1>
-                      <div className="flex items-center flex-wrap ">
-                        <a
-                          className=" inline-flex items-center"
-                          target="_blank"
-                          href="https://twitter.com/_jtwi"
-                          rel="noopener noreferrer"
-                        >
-                          <h2 className="bg-clip-text dark:bg-white bg-gray-900 font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
-                            Case Study →
-                          </h2>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="p-1 keen-slider__slide">
-                  <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
-                    <Image
-                      className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/qa.png"
                       alt="blog"
                       layout="responsive"
@@ -313,6 +290,72 @@ export default function Home() {
                           rel="noopener noreferrer"
                         >
                           <h2 className="bg-clip-text font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
+                            Case Study →
+                          </h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm  shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                    <Image
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
+                      src="/originalgaragenfttailopez.png"
+                      alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
+                    />
+                    <div className="p-4 sm:p-6">
+                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
+                        COMMUNITY MANAGEMENT
+                      </h2>
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                        OG Social Club NFT
+                      </h1>
+                      <div className="flex items-center flex-wrap ">
+                        <a
+                          className=" inline-flex items-center"
+                          target="_blank"
+                          href="https://twitter.com/_jtwi"
+                          rel="noopener noreferrer"
+                        >
+                          <h2 className="bg-clip-text font-semibold text-transparent shadow-sm bg-gradient-to-r from-blue-600 to-blue-500">
+                            Case Study →
+                          </h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
+                    <Image
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
+                      src="/retailecomventures.png"
+                      alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
+                    />
+                    <div className="p-4 sm:p-6">
+                      <h2 className="text-xs title-font font-medium dark:text-gray-500 text-gray-400 mb-1">
+                        UI/UX & WEB DEVELOPMENT
+                      </h2>
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                        Retail Ecommerce Ventures LLC
+                      </h1>
+                      <div className="flex items-center flex-wrap ">
+                        <a
+                          className=" inline-flex items-center"
+                          target="_blank"
+                          href="https://twitter.com/_jtwi"
+                          rel="noopener noreferrer"
+                        >
+                          <h2 className="bg-clip-text dark:bg-white bg-gray-900 font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
                             Case Study →
                           </h2>
                         </a>
@@ -422,24 +465,61 @@ export default function Home() {
               </div>
             </div>
           </Fade>
-          <Fade delay={800}>
+          <Fade delay={200} triggerOnce>
             <div className="space-y-3">
               <h3 className="text-2xl md:text-3xl font-semibold">
                 👨🏼‍💻 – What Do I Do
               </h3>
-              <p className="font-semibold dark:text-gray-100 text-gray-900 sm:text-xl text-md">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-                dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book. It
-                has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                Honestly, a few too many things to count on one hand... I&apos;m
+                currently having a fantastic time working with QA as a Digital
+                Lead developing multiple business streams such as Teach The
+                Nation To Code, Web3 and Online Communities.
+              </p>
+              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                But, let me hightlight my main focuses & skills:
+              </p>
+              <p className="font-normal leading-loose tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                – Frontend Web Development <br />
+                – Discord (Setup, Security, Development) <br />
+                – Community Management <br />
+                – Web3 (NFTs, DAO, Smart Contracts) <br />
+                – Business Development & Management <br />
+                – UI/UX Design <br />
+              </p>
+              <p className="font-normal tracking-wide eading-loose dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                I&apos;m always open to new projects big or small!
+                <br /> My contact details can be found at the
+                <a
+                  className="font-semibold cursor-pointer tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-500"
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
+                >
+                  {" "}
+                  Top Of The Page ↑
+                </a>
               </p>
             </div>
+          </Fade>
+          <Fade delay={200} triggerOnce>
+            <div className="space-y-3">
+              <h3 className="text-2xl md:text-3xl font-semibold">📚 – Blog</h3>
+
+              <p className="font-medium italic tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                Coming Soon...
+              </p>
+            </div>
+          </Fade>
+          <Fade delay={200} triggerOnce>
+            <footer className="mx-auto mt-28 max-w-3xl border-t-4 border-black/10 py-10 dark:border-white/10">
+              <h1 className="text-2xl mb-1 md:text-3xl bg-clip-text font-bold text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                Jordan Twiggs
+              </h1>
+              <p className="font-semibold tracking-wide dark:text-gray-100 text-gray-900 sm:text-md text-sm">
+                © JTWI LTD 2022
+              </p>
+            </footer>
           </Fade>
         </main>
       </div>
