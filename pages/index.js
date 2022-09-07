@@ -33,7 +33,7 @@ export default function Home() {
     },
   });
   return (
-    <div className="bg-cover bg-white dark:bg-gray-900 dark:text-whiten text-black top-0 min-h-screen">
+    <div className="bg-cover bg-white dark:bg-gray-900 dark:text-white text-black top-0 min-h-screen">
       <div className="mx-auto max-w-4xl px-8">
         <Head>
           <meta charSet="UTF-8" />s
