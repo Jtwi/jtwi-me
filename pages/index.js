@@ -33,7 +33,7 @@ export default function Home() {
     },
   });
   return (
-    <div className="bg-cover bg-white dark:bg-gray-900 dark:text-white text-black top-0 min-h-screen">
+    <div className="bg-cover bg-white dark:bg-gray-900 dark:text-whiten text-black top-0 min-h-screen">
       <div className="mx-auto max-w-4xl px-8">
         <Head>
           <meta charSet="UTF-8" />s
@@ -257,15 +257,15 @@ export default function Home() {
 
                 <div className="p-1 keen-slider__slide">
                   <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
-                    <div className="p-6">
-                      <Image
-                        className="lg:h-36 md:h-36 w-full object-cover object-center"
-                        scr={REVimage.src}
-                        alt="Retail Commerce Ventures - REV"
-                        layout="responsive"
-                        width="750"
-                        height="450"
-                      />
+                    <Image
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
+                      src="/retailecomventures.png"
+                      alt="blog"
+                      layout="responsive"
+                      width="750"
+                      height="450"
+                    />
+                    <div className="p-4 sm:p-6">
                       <h2 className="text-xs title-font font-medium dark:text-gray-500 text-gray-400 mb-1">
                         UI/UX & WEB DEVELOPMENT
                       </h2>
