@@ -186,6 +186,65 @@ export default function Home() {
               </p>
             </div>
           </Fade>
+
+          <Fade delay={200} triggerOnce>
+            <div className="space-y-3">
+              <h3 className="text-2xl md:text-3xl font-semibold">
+                👨🏼‍💻 – What Do I Do
+              </h3>
+              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                Honestly, a few too many things to count on one hand...
+              </p>
+              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                I&apos;m currently having a fantastic time working with QA as a
+                Digital Lead developing multiple business streams such as Teach
+                The Nation To Code, Web3 and Online Communities.
+              </p>
+              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                But, let me hightlight my main focuses & skills:
+              </p>
+              <p className="font-normal leading-loose tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                <a className="bg-clip-text font-extrabold text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                Frontend Web Development <br />
+                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                Discord (Setup, Security, Development) <br />
+                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                Community Management <br />
+                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                Blockchain & Web3 (NFTs, DAO, Smart Contracts) <br />
+                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                Business Development & Management <br />
+                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                UI/UX Design <br />
+              </p>
+              <p className="font-normal tracking-wide eading-loose dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                I&apos;m always open to new projects big or small!
+                <br /> My contact details can be found at the top of the page:
+                <a
+                  className="font-bold cursor-pointer tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-500"
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
+                >
+                  {" "}
+                  Click Here ↑
+                </a>
+              </p>
+            </div>
+          </Fade>
+
           <Fade delay={200} triggerOnce>
             <div className="space-y-3">
               <h3 className="text-2xl md:text-3xl font-semibold">
@@ -465,63 +524,7 @@ export default function Home() {
               </div>
             </div>
           </Fade>
-          <Fade delay={200} triggerOnce>
-            <div className="space-y-3">
-              <h3 className="text-2xl md:text-3xl font-semibold">
-                👨🏼‍💻 – What Do I Do
-              </h3>
-              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
-                Honestly, a few too many things to count on one hand...
-              </p>
-              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
-                I&apos;m currently having a fantastic time working with QA as a
-                Digital Lead developing multiple business streams such as Teach
-                The Nation To Code, Web3 and Online Communities.
-              </p>
-              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
-                But, let me hightlight my main focuses & skills:
-              </p>
-              <p className="font-normal leading-loose tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
-                <a className="bg-clip-text font-extrabold text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
-                  ►
-                </a>{" "}
-                Frontend Web Development <br />
-                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
-                  ►
-                </a>{" "}
-                Discord (Setup, Security, Development) <br />
-                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
-                  ►
-                </a>{" "}
-                Community Management <br />
-                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
-                  ►
-                </a>{" "}
-                Blockchain & Web3 (NFTs, DAO, Smart Contracts) <br />
-                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
-                  ►
-                </a>{" "}
-                Business Development & Management <br />
-                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
-                  ►
-                </a>{" "}
-                UI/UX Design <br />
-              </p>
-              <p className="font-normal tracking-wide eading-loose dark:text-gray-100 text-gray-900 sm:text-xl text-md">
-                I&apos;m always open to new projects big or small!
-                <br /> My contact details can be found at the top of the page:
-                <a
-                  className="font-bold cursor-pointer tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-500"
-                  onClick={() => {
-                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-                  }}
-                >
-                  {" "}
-                  Click Here ↑
-                </a>
-              </p>
-            </div>
-          </Fade>
+
           <Fade delay={200} triggerOnce>
             <div className="space-y-3">
               <h3 className="text-2xl md:text-3xl font-semibold">📚 – Blog</h3>
