@@ -202,7 +202,7 @@ export default function Home() {
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/botmrt.png"
-                      alt="blog"
+                      alt="BotMart Worlds Largest Bot Marketplace"
                       layout="responsive"
                       width="750"
                       height="450"
@@ -236,7 +236,7 @@ export default function Home() {
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/radioshackllc2.png"
-                      alt="blog"
+                      alt="RadioShack Web3 Crypto Swap"
                       layout="responsive"
                       width="750"
                       height="450"
@@ -270,7 +270,7 @@ export default function Home() {
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/qa.png"
-                      alt="blog"
+                      alt="QA UK's largest tech training and digital skills organisation"
                       layout="responsive"
                       width="750"
                       height="450"
@@ -303,7 +303,7 @@ export default function Home() {
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/originalgaragenfttailopez.png"
-                      alt="blog"
+                      alt="Original Garage Social Club by Tai Lopez"
                       layout="responsive"
                       width="750"
                       height="450"
@@ -336,7 +336,7 @@ export default function Home() {
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/retailecomventures.png"
-                      alt="blog"
+                      alt="Retail Ecommerce Ventures"
                       layout="responsive"
                       width="750"
                       height="450"
@@ -369,7 +369,7 @@ export default function Home() {
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/bcu.png"
-                      alt="blog"
+                      alt="Birmingham City University"
                       layout="responsive"
                       width="750"
                       height="450"
@@ -402,7 +402,7 @@ export default function Home() {
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/astroproxies.png"
-                      alt="blog"
+                      alt="AstroProxies / Astro IO LTD"
                       layout="responsive"
                       width="750"
                       height="450"
@@ -435,7 +435,7 @@ export default function Home() {
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/curatesmart.png"
-                      alt="blog"
+                      alt="Curate Smart - UK Smart Homes"
                       layout="responsive"
                       width="750"
                       height="450"
@@ -471,10 +471,12 @@ export default function Home() {
                 👨🏼‍💻 – What Do I Do
               </h3>
               <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
-                Honestly, a few too many things to count on one hand... I&apos;m
-                currently having a fantastic time working with QA as a Digital
-                Lead developing multiple business streams such as Teach The
-                Nation To Code, Web3 and Online Communities.
+                Honestly, a few too many things to count on one hand...
+              </p>
+              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+                I&apos;m currently having a fantastic time working with QA as a
+                Digital Lead developing multiple business streams such as Teach
+                The Nation To Code, Web3 and Online Communities.
               </p>
               <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
                 But, let me hightlight my main focuses & skills:
@@ -489,7 +491,7 @@ export default function Home() {
               </p>
               <p className="font-normal tracking-wide eading-loose dark:text-gray-100 text-gray-900 sm:text-xl text-md">
                 I&apos;m always open to new projects big or small!
-                <br /> My contact details can be found at the
+                <br /> My contact details can be found at the top of the page:
                 <a
                   className="font-semibold cursor-pointer tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-500"
                   onClick={() => {
@@ -497,7 +499,7 @@ export default function Home() {
                   }}
                 >
                   {" "}
-                  Top Of The Page ↑
+                  Click Here ↑
                 </a>
               </p>
             </div>
