@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
-import JordanTWI from "../public/jordtwi.png";
 import Typewriter from "typewriter-effect";
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
@@ -60,7 +59,7 @@ export default function Home() {
             property="og:description"
             content="JTWI — Jordan Twiggs Personal Website"
           />
-          <meta property="og:image" content={JordanTWI} />
+          <meta property="og:image" content="https://i.imgur.com/oXEOccb.png" />
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://jtwi.me/" />
           <meta
@@ -71,7 +70,10 @@ export default function Home() {
             property="twitter:description"
             content="JTWI — Jordan Twiggs Personal Website"
           />
-          <meta property="twitter:image" content={JordanTWI} />
+          <meta
+            property="twitter:image"
+            content="https://i.imgur.com/oXEOccb.png"
+          />
         </Head>
 
         <main className="max-w-3xl space-y-12 py-14">
