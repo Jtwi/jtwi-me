@@ -482,18 +482,36 @@ export default function Home() {
                 But, let me hightlight my main focuses & skills:
               </p>
               <p className="font-normal leading-loose tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
-                – Frontend Web Development <br />
-                – Discord (Setup, Security, Development) <br />
-                – Community Management <br />
-                – Web3 (NFTs, DAO, Smart Contracts) <br />
-                – Business Development & Management <br />
-                – UI/UX Design <br />
+                <a className="bg-clip-text font-extrabold text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                Frontend Web Development <br />
+                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                Discord (Setup, Security, Development) <br />
+                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                Community Management <br />
+                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                Blockchain & Web3 (NFTs, DAO, Smart Contracts) <br />
+                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                Business Development & Management <br />
+                <a className="bg-clip-text font-extrabold  text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
+                  ►
+                </a>{" "}
+                UI/UX Design <br />
               </p>
               <p className="font-normal tracking-wide eading-loose dark:text-gray-100 text-gray-900 sm:text-xl text-md">
                 I&apos;m always open to new projects big or small!
                 <br /> My contact details can be found at the top of the page:
                 <a
-                  className="font-semibold cursor-pointer tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-500"
+                  className="font-bold cursor-pointer tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-500"
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
