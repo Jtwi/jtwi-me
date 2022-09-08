@@ -71,7 +71,7 @@ export default function Home() {
             property="twitter:description"
             content="JTWI — Jordan Twiggs Personal Website"
           />
-          <meta property="twitter:image" ontent={JordanTWI} />
+          <meta property="twitter:image" content={JordanTWI} />
         </Head>
 
         <main className="max-w-3xl space-y-12 py-14">
