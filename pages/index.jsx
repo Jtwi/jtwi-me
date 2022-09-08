@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Fade } from "react-awesome-reveal";
+import JordanTWI from "../public/jordtwi.png";
 import Typewriter from "typewriter-effect";
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
@@ -41,32 +42,36 @@ export default function Home() {
             content="width=device-width, initial-scale=1.0"
           />
           <title>Jordan Twiggs – JTWI</title>
+          <link rel="icon" href="/favicon.ico" />
+          <meta name="title" content="JTWI — Jordan Twiggs Personal Website" />
+          <meta charSet="utf-8" />
           <meta
             name="description"
-            content="Personal Website For Jordan Twiggs."
+            content="JTWI — Jordan Twiggs Personal Website"
           />
-          <meta name="keywords" content="" />
-          <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/apple-touch-icon.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/favicon-32x32.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/favicon-16x16.png"
-          />
-          <link rel="manifest" href="/site.webmanifest" />
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3a6eeb" />
-          <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="theme-color" content="#ffffff" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://jtwi.me/" />
+          <meta
+            property="og:title"
+            content="JTWI — Jordan Twiggs Personal Website"
+          />
+          <meta
+            property="og:description"
+            content="JTWI — Jordan Twiggs Personal Website"
+          />
+          <meta property="og:image" content={JordanTWI} />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://jtwi.me/" />
+          <meta
+            property="twitter:title"
+            content="JTWI — Jordan Twiggs Personal Website"
+          />
+          <meta
+            property="twitter:description"
+            content="JTWI — Jordan Twiggs Personal Website"
+          />
+          <meta property="twitter:image" ontent={JordanTWI} />
         </Head>
 
         <main className="max-w-3xl space-y-12 py-14">
