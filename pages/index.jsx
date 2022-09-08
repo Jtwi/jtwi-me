@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import REVimage from "../public/retailecomventures.png";
 import { Fade } from "react-awesome-reveal";
 import Typewriter from "typewriter-effect";
 import React from "react";
@@ -65,8 +64,8 @@ export default function Home() {
             href="/favicon-16x16.png"
           />
           <link rel="manifest" href="/site.webmanifest" />
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-          <meta name="msapplication-TileColor" content="#da532c" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3a6eeb" />
+          <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="theme-color" content="#ffffff" />
         </Head>
 
@@ -394,7 +393,7 @@ export default function Home() {
                   <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
-                      src="/retailecomventures.png"
+                      src="/retailcommerceventurerev.png"
                       alt="Retail Ecommerce Ventures"
                       layout="responsive"
                       width="750"
