@@ -169,23 +169,23 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-semibold">
                 💭 – About Me
               </h3>
-              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-normal tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 I&apos;m 23 years old, from the United Kingdom! I started my
                 journey in graphic design before adventuring into web
                 development for a handful of local clients.
               </p>
-              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-normal tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 Six years later I now focus on Business Development &
                 Management, Full Stack Development, Online Community Management,
                 Web3 / Blockchain Tech for worldwide clients. As well as
                 founding two of my own online businesses!
               </p>
 
-              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-normal tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 I also graduated from Birmingham City University in 2022 with a
                 First class Honours in Business Information Technology!
               </p>
-              <p className="font-medium italic tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-medium italic tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 Been a busy six years...
               </p>
             </div>
@@ -196,18 +196,18 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-semibold">
                 👨🏼‍💻 – What Do I Do
               </h3>
-              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-normal tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 Honestly, a few too many things to count on one hand...
               </p>
-              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-normal tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 I&apos;m currently having a fantastic time working with QA as a
                 Digital Lead developing multiple business streams such as Teach
                 The Nation To Code, Web3 and Online Communities.
               </p>
-              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-normal tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 But, let me hightlight my main focuses & skills:
               </p>
-              <p className="font-normal leading-loose tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-normal leading-loose tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 <a className="bg-clip-text font-extrabold text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
                   ►
                 </a>{" "}
@@ -233,7 +233,7 @@ export default function Home() {
                 </a>{" "}
                 UI/UX Design <br />
               </p>
-              <p className="font-normal tracking-wide eading-loose dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-normal tracking-wide eading-loose dark:text-gray-100 text-black sm:text-xl text-md">
                 I&apos;m always open to new projects big or small!
                 <br /> My contact details can be found at the top of the page:
                 <a
@@ -254,7 +254,7 @@ export default function Home() {
               <h3 className="text-2xl md:text-3xl font-semibold">
                 ⚙️ – Projects & Work
               </h3>
-              <p className="font-normal tracking-wide dark:text-gray-100 text-gray-900 sm:text-xl text-md">
+              <p className="font-normal tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 Don&apos;t just take my word for it. Check out the recent
                 projects I have worked on!
               </p>
@@ -452,6 +452,39 @@ export default function Home() {
                           rel="noopener noreferrer"
                         >
                           <h2 className="bg-clip-text font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
+                            Case Study →
+                          </h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm  shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                    <Image
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
+                      src="/spicetradeai.png"
+                      alt="Spice Trade Value Stable Protocol"
+                      layout="responsive"
+                      width="750"
+                      height="450"
+                    />
+                    <div className="p-4 sm:p-6">
+                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
+                        COMMUNITY MANAGEMENT
+                      </h2>
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                        Spice Trade AI
+                      </h1>
+                      <div className="flex items-center flex-wrap ">
+                        <a
+                          className=" inline-flex items-center"
+                          target="_blank"
+                          href="https://twitter.com/_jtwi"
+                          rel="noopener noreferrer"
+                        >
+                          <h2 className="bg-clip-text font-semibold text-transparent shadow-sm bg-gradient-to-r from-blue-600 to-blue-500">
                             Case Study →
                           </h2>
                         </a>
