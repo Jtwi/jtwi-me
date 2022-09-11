@@ -172,7 +172,7 @@ export default function Home() {
               <p className="font-normal tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 I&apos;m 23 years old, from the United Kingdom! I started my
                 journey in graphic design before adventuring into web
-                development for a handful of local clients.
+                development for local clients.
               </p>
               <p className="font-normal tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 Six years later I now focus on Business Development &
