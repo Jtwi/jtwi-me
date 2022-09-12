@@ -207,7 +207,7 @@ export default function Home() {
               <p className="font-normal tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 But, let me hightlight my main focuses & skills:
               </p>
-              <p className="font-normal leading-loose tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
+              <p className="font-normal leading-relaxed	 tracking-wide dark:text-gray-100 text-black sm:text-xl text-md">
                 <a className="bg-clip-text font-extrabold text-transparent opacity-100 bg-gradient-to-r from-blue-600 to-blue-500">
                   ►
                 </a>{" "}
