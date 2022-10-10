@@ -362,7 +362,7 @@ export default function Home() {
                 </div>
 
                 <div className="p-1 keen-slider__slide">
-                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm  shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/originalgaragenfttailopez.png"
@@ -385,7 +385,7 @@ export default function Home() {
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
                         >
-                          <h2 className="bg-clip-text font-semibold text-transparent shadow-sm bg-gradient-to-r from-blue-600 to-blue-500">
+                          <h2 className="bg-clip-text font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
                             Case Study →
                           </h2>
                         </a>
@@ -428,7 +428,7 @@ export default function Home() {
                 </div>
 
                 <div className="p-1 keen-slider__slide">
-                  <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm border-opacity-60 rounded-lg overflow-hidden">
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/bcu.png"
@@ -461,7 +461,7 @@ export default function Home() {
                 </div>
 
                 <div className="p-1 keen-slider__slide">
-                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm  shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/spicetradeai.png"
@@ -484,7 +484,7 @@ export default function Home() {
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
                         >
-                          <h2 className="bg-clip-text font-semibold text-transparent shadow-sm bg-gradient-to-r from-blue-600 to-blue-500">
+                          <h2 className="bg-clip-text font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
                             Case Study →
                           </h2>
                         </a>
@@ -527,7 +527,7 @@ export default function Home() {
                 </div>
 
                 <div className="p-1 keen-slider__slide">
-                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm  shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/curatesmart.png"
@@ -550,7 +550,7 @@ export default function Home() {
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
                         >
-                          <h2 className="bg-clip-text font-semibold text-transparent shadow-sm bg-gradient-to-r from-blue-600 to-blue-500">
+                          <h2 className="bg-clip-text font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
                             Case Study →
                           </h2>
                         </a>
