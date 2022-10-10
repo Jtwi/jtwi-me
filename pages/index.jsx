@@ -494,6 +494,39 @@ export default function Home() {
                 </div>
 
                 <div className="p-1 keen-slider__slide">
+                  <div className="h-full border-2 dark:bg-white bg-gray-900 hover:shadow-sm border-gray-300 border-opacity-60 rounded-lg overflow-hidden">
+                    <Image
+                      className="lg:h-36 md:h-36 w-full object-cover object-center"
+                      src="/theheartproject.png"
+                      alt="Curate Smart - UK Smart Homes"
+                      layout="responsive"
+                      width="750"
+                      height="450"
+                    />
+                    <div className="p-4 sm:p-6">
+                      <h2 className="text-xs title-font font-medium text-gray-400 dark:text-gray-500 mb-1">
+                        WEB DEVELOPMENT
+                      </h2>
+                      <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
+                        The Heart Project
+                      </h1>
+                      <div className="flex items-center flex-wrap ">
+                        <a
+                          className=" inline-flex items-center"
+                          target="_blank"
+                          href="https://twitter.com/_jtwi"
+                          rel="noopener noreferrer"
+                        >
+                          <h2 className="bg-clip-text font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
+                            Case Study →
+                          </h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-1 keen-slider__slide">
                   <div className="h-full border-2 dark:bg-white bg-gray-900 border-gray-300 hover:shadow-sm  border-opacity-60 rounded-lg overflow-hidden">
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
