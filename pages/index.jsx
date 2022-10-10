@@ -418,7 +418,7 @@ export default function Home() {
                           href="https://twitter.com/_jtwi"
                           rel="noopener noreferrer"
                         >
-                          <h2 className="bg-clip-text dark:bg-white bg-gray-900 font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
+                          <h2 className="bg-clip-text font-semibold text-transparent bg-gradient-to-r from-blue-600 to-blue-500">
                             Case Study →
                           </h2>
                         </a>
