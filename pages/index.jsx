@@ -7,7 +7,7 @@ import React from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
-const animation = { duration: 40000, easing: (t) => t };
+const animation = { duration: 37500, easing: (t) => t };
 
 export default function Home() {
   const [sliderRef] = useKeenSlider({
@@ -498,7 +498,7 @@ export default function Home() {
                     <Image
                       className="lg:h-36 md:h-36 w-full object-cover object-center"
                       src="/theheartproject.png"
-                      alt="Curate Smart - UK Smart Homes"
+                      alt="The Heart Project Coin Claim - Frontend Developmemt"
                       layout="responsive"
                       width="750"
                       height="450"
@@ -508,7 +508,7 @@ export default function Home() {
                         WEB DEVELOPMENT
                       </h2>
                       <h1 className="title-font text-lg font-semibold text-white dark:text-black mb-2">
-                        The Heart Project
+                        The Heart Project NFT
                       </h1>
                       <div className="flex items-center flex-wrap ">
                         <a
