@@ -9,18 +9,18 @@ const description =
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jtwi.me"),
-  title: "Jordan Twiggs — Product Manager",
+  title: "Jordan Twiggs - Product Manager",
   description,
   openGraph: {
     type: "website",
     url: "https://jtwi.me/",
-    title: "Jordan Twiggs — Product Manager",
+    title: "Jordan Twiggs - Product Manager",
     description,
     siteName: "jtwi.me",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jordan Twiggs — Product Manager",
+    title: "Jordan Twiggs - Product Manager",
     description,
   },
   alternates: { canonical: "https://jtwi.me/" },
