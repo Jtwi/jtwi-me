@@ -170,10 +170,7 @@ export default function Home() {
             </h1>
 
             <p className="mt-5 text-[0.9375rem] leading-relaxed text-ink-soft">
-              I’m a product manager who also ships code. I scaled a{" "}
-              <strong className="font-semibold text-ink">£4m</strong>{" "}
-              marketplace startup before delving into product management. I now
-              build digital products for worldwide brands.
+              I&apos;m a Product Manager who also ships code. I helped scale a £4m marketplace startup before moving into product management, and now build websites, mobile apps and AI-powered products for global brands.
             </p>
 
             <p className="mt-5 text-[0.9375rem] leading-relaxed text-ink-soft">
